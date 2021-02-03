@@ -1,0 +1,44 @@
+2021-01-26T11:00:14+00:00 CRITICAL Uncaught ValueError: Unknown format specifier """ in C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php:125
+Stack trace:
+#0 C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php(125): sprintf('%1$s. <a href="...', 'Impossible de c...', 'Ouvrir le lien')
+#1 C:\xampp\htdocs\wordpress_1\wp-includes\class-wp-hook.php(287): Su_Assets::register('')
+#2 C:\xampp\htdocs\wordpress_1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress_1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress_1\wp-admin\admin-header.php(147): do_action('admin_head')
+#5 C:\xampp\htdocs\wordpress_1\wp-admin\plugins.php(603): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown dans C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php à la ligne 125
+
+2021-01-26T11:01:14+00:00 CRITICAL Uncaught ValueError: Unknown format specifier """ in C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php:125
+Stack trace:
+#0 C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php(125): sprintf('%1$s. <a href="...', 'Impossible de c...', 'Ouvrir le lien')
+#1 C:\xampp\htdocs\wordpress_1\wp-includes\class-wp-hook.php(287): Su_Assets::register('')
+#2 C:\xampp\htdocs\wordpress_1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress_1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress_1\wp-admin\admin-header.php(147): do_action('admin_head')
+#5 C:\xampp\htdocs\wordpress_1\wp-admin\plugin-install.php(124): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown dans C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php à la ligne 125
+
+2021-01-26T11:01:21+00:00 CRITICAL Uncaught ValueError: Unknown format specifier """ in C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php:125
+Stack trace:
+#0 C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php(125): sprintf('%1$s. <a href="...', 'Impossible de c...', 'Ouvrir le lien')
+#1 C:\xampp\htdocs\wordpress_1\wp-includes\class-wp-hook.php(287): Su_Assets::register('')
+#2 C:\xampp\htdocs\wordpress_1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress_1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress_1\wp-admin\admin-header.php(147): do_action('admin_head')
+#5 C:\xampp\htdocs\wordpress_1\wp-admin\plugin-install.php(124): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown dans C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php à la ligne 125
+
+2021-01-26T11:01:33+00:00 CRITICAL Uncaught ValueError: Unknown format specifier """ in C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php:125
+Stack trace:
+#0 C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php(125): sprintf('%1$s. <a href="...', 'Impossible de c...', 'Ouvrir le lien')
+#1 C:\xampp\htdocs\wordpress_1\wp-includes\class-wp-hook.php(287): Su_Assets::register('')
+#2 C:\xampp\htdocs\wordpress_1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress_1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress_1\wp-admin\admin-header.php(147): do_action('admin_head')
+#5 C:\xampp\htdocs\wordpress_1\wp-admin\plugins.php(603): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown dans C:\xampp\htdocs\wordpress_1\wp-content\plugins\shortcodes-ultimate\inc\core\assets.php à la ligne 125
+

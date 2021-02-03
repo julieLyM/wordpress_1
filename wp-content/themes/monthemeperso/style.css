@@ -1,0 +1,154 @@
+/*
+Theme Name: Mon Theme perso
+Author: Moi 
+Description: Voici mon theme 
+Version:1.0
+Text Domain: monthemeperso
+*/
+
+body
+{
+    background-color: rgb(245, 198, 231);
+    font-family: 'Staatliches', cursive;
+    font-size: 1.4vw;
+    overflow-x: hidden;
+    color: white;
+}
+li
+{
+    list-style-type: none;
+}
+.haut-gauche
+{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.haut-gauche img{
+    width: 200px;
+}
+
+.haut-droite
+{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+.haut-droite li
+{
+    width: 50%;
+}
+.haut-droite li p
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titreheader h1
+{
+    text-align: center;
+    font-size: 7vw;
+}
+.entete
+{
+    min-height: 25vh;
+    margin: auto 0 !important;
+    padding: auto 0 !important;
+
+}
+.entete li p img
+{
+    position: relative;
+    left: -205px;
+}
+.menuheader
+{
+    min-height: 10vh;
+    
+}
+.milieu
+{
+    min-height: 60vh;
+}
+.bas-gauche
+{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.bas-droite
+{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/*********************************** CAROUSEL ENTETE ***********************************/
+
+.su-image-carousel-item-content img /* ici je parle à toute mes images qui sont dans le carousel */
+{
+    height: 30vh !important;
+    object-fit: fill !important;
+    border: none !important;
+}
+.su-image-carousel-item-content /* ici je parle aux parent de mes images */
+{
+    height: 30vh !important;
+}
+.su-image-carousel-item /* ici je parle à mon carousel au complet */
+{
+    height: 30vh !important;
+}
+
+
+/********************************************************************************************/
+
+/********************** ADDTOANY *********************************/
+
+.bas-gauche #a2a_share_save_widget-2, .addtoany_list
+{
+    width: 100%;
+}
+.addtoany_list
+{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 0 !important;
+}
+
+/***********************************************************************************/
+
+
+/**************** MENU ADMIN *************************************/
+
+#menu-menu-admin
+{
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu-menu-admin a
+{
+    text-decoration: none;
+    color: azure;
+    font-size: 2.1vw;
+}
+.bas-droite #nav_menu-2
+{
+    width: 100%;
+}
